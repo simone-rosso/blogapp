@@ -26,7 +26,7 @@ import SocialMedia from './Containers/SocialMedia.js/SocialMedia';
 
 let logoutTimer;
 
-const App = (props) => {
+const App = () => {
 
 
   const [token, setToken] = useState(false);
